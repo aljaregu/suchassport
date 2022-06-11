@@ -8,6 +8,9 @@ function Cardart({img, name, precio}) {
                 <img src={img} alt="Imagen articulos deportivos" />
             </div>
             <div className='informacion-art'>
+            <span>{name} </span>
+                <span>{precio} </span>
+
             </div>
         </div>
     )
